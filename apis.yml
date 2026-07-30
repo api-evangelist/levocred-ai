@@ -1,22 +1,76 @@
 aid: levocred-ai
-name: Levocred Ai
-description: Levocred Ai is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Levocred AI
+description: 'Levocred AI builds an AI operating system for structured credit operations,
+  serving both credit funds (lenders) and loan originators from a single platform.
+  Its product, Levo, ingests loan tapes, credit agreements, servicer reports and bank
+  feeds, then automates analytical work a credit team would otherwise do by hand: generating
+  lender-ready borrowing base reports, monitoring covenants for breaches in real time
+  rather than at month-end, drafting credit analyses and investment committee memos,
+  assembling lender packages, consolidating treasury and cash visibility across facilities,
+  and maintaining a centralized facility workspace as a single source of truth. The
+  company is a Y Combinator Summer 2026 company based in San Francisco and reports
+  monitoring $500M in capital across 10+ facilities. As of this profile Levocred publishes
+  no public API, developer portal, or API documentation; the product is delivered as
+  a hosted web application.'
 url: https://raw.githubusercontent.com/api-evangelist/levocred-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.levocred.com/apple-touch-icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
+x-yc-batch: Summer 2026
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Financial Services
+- Private Credit
+- Lending
+- Credit Risk
+- Fintech
+- Y Combinator
 apis: []
+common:
+- type: Website
+  name: Levocred AI
+  url: https://www.levocred.com/
+- type: Login
+  name: Levo application sign-in
+  url: https://app.levocred.com/auth/sign-in
+- type: TrustCenter
+  name: Levocred Trust Center
+  url: https://trust.levocred.com/
+- type: DomainSecurity
+  name: Domain security posture
+  url: security/levocred-ai-domain-security.yml
+- type: LLMsTxt
+  name: llms.txt
+  url: llms/levocred-ai-llms.txt
+- type: LinkedIn
+  name: LinkedIn
+  url: https://www.linkedin.com/company/levocred-ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
