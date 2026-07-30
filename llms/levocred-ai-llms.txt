@@ -1,0 +1,36 @@
+# Levocred AI
+
+> Levocred AI builds an AI operating system for structured credit operations, serving both credit funds (lenders) and loan originators from one platform. Its product, Levo, ingests loan tapes, credit agreements, servicer reports and bank feeds and automates the analytical work a credit team would otherwise do by hand. Levocred is a Y Combinator Summer 2026 company based in San Francisco.
+
+## Status
+
+- No public API, developer portal, or API documentation is published as of 2026-07-19.
+- No OpenAPI, AsyncAPI, GraphQL, or webhook surface was found.
+- No public SDKs, CLI, package-registry libraries, or GitHub organization were found.
+- The product is delivered as a hosted web application at app.levocred.com.
+
+## Product capabilities
+
+- Borrowing base reports: converts loan data into lender-ready PDFs.
+- Covenant monitoring: detects breaches in real time rather than at month-end.
+- Credit analysis and investment committee memos.
+- Lender packages: auto-generated PDF packages.
+- Treasury and cash visibility: consolidated cash position across facilities.
+- Centralized facility workspace as a single source of truth for facility data.
+
+## Links
+
+- [Website](https://www.levocred.com/): Company and product site.
+- [Cost analysis](https://www.levocred.com/cost-analysis): ROI calculator.
+- [Application sign-in](https://app.levocred.com/auth/sign-in): Levo hosted application.
+- [Trust center](https://trust.levocred.com/): Security and compliance posture (Oneleet-hosted).
+- [Y Combinator profile](https://www.ycombinator.com/companies/levocred-ai): Summer 2026 batch.
+- [LinkedIn](https://www.linkedin.com/company/levocred-ai/): Company page.
+- [Contact](mailto:info@levocred.com): General contact.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/levocred-ai/refs/heads/main/apis.yml): APIs.json profile for Levocred AI.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/levocred-ai/refs/heads/main/security/levocred-ai-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF, DMARC posture.
+- [Trust center](https://raw.githubusercontent.com/api-evangelist/levocred-ai/refs/heads/main/security/levocred-ai-trust-center.yml): Probed trust-center record.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/levocred-ai/refs/heads/main/well-known/levocred-ai-well-known.yml): Recorded /.well-known/ discovery probe results.

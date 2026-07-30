@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: probed
+probe: true
+url: https://trust.levocred.com/
+platform: Oneleet
+status: 200
+certifications: []
+certifications_note: >-
+  The trust center is live and hosted on Oneleet (trust.levocred.com is a CNAME to
+  trust.oneleet.com). Its contents are rendered client-side, so no named certification
+  (SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP) could be verified from the served HTML.
+  Certifications are deliberately left empty rather than assumed, and no Compliance
+  pointer is wired in apis.yml. Re-probe with a rendering fetch to populate.
+evidence:
+- source: dns
+  detail: trust.levocred.com CNAME -> trust.oneleet.com
+- source: https://trust.levocred.com/
+  detail: HTTP 200, document title "Trust center", Oneleet-hosted single-page app
