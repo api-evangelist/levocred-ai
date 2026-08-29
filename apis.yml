@@ -13,6 +13,17 @@ description: 'Levocred AI builds an AI operating system for structured credit op
   no public API, developer portal, or API documentation; the product is delivered as
   a hosted web application.'
 url: https://raw.githubusercontent.com/api-evangelist/levocred-ai/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
