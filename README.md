@@ -1,4 +1,4 @@
-# Levocred Ai
+# Levocred AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Levocred Ai is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Levocred AI builds an AI operating system for structured credit operations, serving both credit funds (lenders) and loan originators from a single platform. Its product, Levo, ingests loan tapes, credit agreements, servicer reports and bank feeds, then automates analytical work a credit team would otherwise do by hand: generating lender-ready borrowing base reports, monitoring covenants for breaches in real time rather than at month-end, drafting credit analyses and investment committee memos, assembling lender packages, consolidating treasury and cash visibility across facilities, and maintaining a centralized facility workspace as a single source of truth. The company is a Y Combinator Summer 2026 company based in San Francisco and reports monitoring $500M in capital across 10+ facilities. As of this profile Levocred publishes no public API, developer portal, or API documentation; the product is delivered as a hosted web application.
 
-Backed by: y-combinator
+**Areas:** Company · Artificial Intelligence · Financial Services · Private Credit · Lending · Credit Risk · Fintech · Y Combinator
+
+## Levocred AI on APIs.io
+
+Everything profiled for Levocred AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/levocred-ai/](https://apis.io/providers/levocred-ai/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Levocred Ai Domain Security](https://apis.io/security/levocred-ai/levocred-ai-domain-security/)
+- [Levocred Ai Trust Center](https://apis.io/security/levocred-ai/levocred-ai-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.levocred.com/)
+- [Trust centre](https://trust.levocred.com/)
+
+## API Evangelist rating
+
+**Kin Score 9.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/levocred-ai/](https://apis.io/providers/levocred-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Levocred AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/levocred-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
